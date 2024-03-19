@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: sebastjan_ruby_production
-  username: sebastjan_ruby
+  database: sebast82_sebastjan_ruby_production
+  username: sebast82_sebastjan_ruby_user
   password: <%= ENV["SEBASTJAN_RUBY_DATABASE_PASSWORD"] %>
