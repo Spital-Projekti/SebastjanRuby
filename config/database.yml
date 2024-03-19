@@ -52,4 +52,4 @@ production:
   <<: *default
   database: sebast82_sebastjan_ruby_production
   username: sebast82_sebastjan_ruby_user
-  password: <%= ENV["SEBASTJAN_RUBY_DATABASE_PASSWORD"] %>
+  password: <%= Rails.application.credentials.dig(:sebastjan_ruby_database_password) %>
